@@ -424,10 +424,16 @@
 #posts-section .posts .post .post-details .time-comment {
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
+}
+#posts-section .posts .post .post-details .time-comment .time , #posts-section .posts .post .post-details .time-comment .comment {
+  display: flex;
+  align-items: center;
 }
 #posts-section .posts .post .post-details .time-comment img {
   height: 16px;
   width: 16px;
+  margin-right: 5px;
 }
 #posts-section .posts .post .post-details .time-comment span {
   font-family: "Montserrat", sans-serif;
